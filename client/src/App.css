@@ -1,0 +1,149 @@
+/* App Global Styles */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Main Layout */
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+/* Left Side Content (Graphs/Analysis) */
+.content-container {
+  padding: 20px;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 80px 100px 500px 240px;
+  justify-items: center;
+}
+
+canvas {
+  grid-row: 3;
+  width: 700px;
+  height: 400px;
+}
+
+.graph-selection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  margin: 20px 0;
+  align-items: center;
+}
+
+#type-selection {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+#type-selection select,
+#type-selection label,
+#type-selection span {
+  margin-right: 10px; /* Add some space between elements */
+}
+
+#type-selection select {
+  width: 150px;
+}
+
+#word-selection p {
+  display: inline-block;
+}
+
+#dataTable {
+  position: relative;
+  width: 100%;
+  border-collapse: collapse;
+  top: 40px;
+}
+
+#dataTable th, #dataTable td {
+  border: 1px solid #6a6a6a;
+  padding: 8px;
+  text-align: center;
+}
+
+#tableHeader {
+  height: 50px;
+  background-color: #a0a0a0;
+}
+
+#tableHeader th {
+  width: 300px 200px 100px;
+}
+
+#tableContent {
+  background-color: #f4f4f4;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+
+/* Right Side Filter Section */
+.filter-container {
+  width: 30%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+}
+
+/* Two-Column Layout for Checkboxes */
+.checkbox-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.checkbox-container label {
+  display: flex;
+  align-items: center;
+}
+
+/* Miscellaneous Input Styles */
+.year-input {
+  width: 50px;
+  margin: 10px;
+}
+
+.word-chose-manual {
+  width: 145px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.word-chose-rank {
+  width: 50px;
+  margin: 10px;
+}
