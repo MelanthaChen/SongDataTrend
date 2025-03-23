@@ -112,12 +112,6 @@
 
 ---
 
-## 👨‍💻 **Contributors**
-- **[Your Name]** – Developer, Data Engineer
-- **Professor [Advisor's Name]** – Project Advisor  
-- Special thanks to the **[University/Department Name]** for supporting this project.
-
----
 
 ## 📄 **License**
 This project is licensed under the **MIT License** – see the [LICENSE](./LICENSE) file for details.
@@ -131,6 +125,6 @@ This project is licensed under the **MIT License** – see the [LICENSE](./LICEN
 
 ---
 
-If you have any questions, feel free to contact me at [your.email@example.com](mailto:your.email@example.com).
+If you have any questions, feel free to contact me at [yuxuan.chen.1031@gmail.com](mailto:yuxuan.chen.1031@gmail.com).
 
 > **Empowering research through data-driven insights.**
