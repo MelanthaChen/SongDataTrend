@@ -1,0 +1,1 @@
+GET http://localhost:8080/api/fetch-data?chinaRegion=${chinaRegion}&synonym=true&file=filteredgrm_stop&includeAbstractedFinal=${includeAbstractedFinal
